@@ -12,5 +12,12 @@ Open the notebook [training_evo.ipynb](training_evo.ipynb) to train using evolut
 - openAI CLIP `pip install git+https://github.com/openai/CLIP.git`
 
 ### Example
-goal: `a bumblebee`
+goal: `a bumblebee`\
+method: `end-to-end differentiation`\
 ![example](media/bumblebee.png)
+
+---
+
+goal: `a red triangle`\
+method: `evolutionary strategy`\
+![example](media/red_triangle.png)
