@@ -10,3 +10,7 @@ Open the notebook [training_evo.ipynb](training_evo.ipynb) to train using evolut
 
 - pytorch + torchvision
 - openAI CLIP `pip install git+https://github.com/openai/CLIP.git`
+
+### Example
+goal: `a bumblebee`
+![example](media/bumblebee.png)
