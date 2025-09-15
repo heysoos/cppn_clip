@@ -11,6 +11,13 @@ Open the notebook [training_evo.ipynb](training_evo.ipynb) to train using evolut
 - pytorch + torchvision
 - openAI CLIP `pip install git+https://github.com/openai/CLIP.git`
 
+### Method
+Maximizing the cosine similarity between the CLIP embeddings of the generated image and the target text.
+
+**Differentiation method:** A single model is used, where the batch dimension is used to sample multiple latent vectors `z`, and can also be used to noise the coordinate space. Both methods add noise to model and force it to perform in a broader range.
+
+**Evolutionary strategy method:** A population of models are evolved using a simple evolutionary strategy (e.g. CMA-ES).
+
 ### Example
 goal: `a bumblebee`\
 method: `end-to-end differentiation`\
